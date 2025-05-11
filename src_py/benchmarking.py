@@ -15,10 +15,6 @@ class Benchmarking:
         fin = time.perf_counter()
         return fin - inicio
 
-
-
-
-
     def metodo(self):
         self.mo = Metodo_ordenamiento()
 
@@ -28,18 +24,22 @@ class Benchmarking:
         tarea2 = lambda: self.mo.sort_burbuja_mejorado_optimizado(arreglo)
         tarea3 = lambda: self.mo.sort_seleccion(arreglo)
         tarea4 = lambda: self.mo.sort_shell(arreglo)
+        tarea5 = lambda: self.mo.sort_inseccion(arreglo)
+
         
         ##tiempoM = self.contar_con_current_time_milles(tarea)
         tiempoN = self.contar_con_nano_time(tarea)
         tiempoN2 = self.contar_con_nano_time(tarea2)
         tiempoN3 = self.contar_con_nano_time(tarea3)
         tiempo4 = self.contar_con_nano_time(tarea4)
+        tiempo5 = self.contar_con_nano_time(tarea5)
 
         ##print(f'Tiempo con milisegundos: {tiempoM} \nTiempo en nanosegundos {tiempoN}')
         print(f'Tiempo en nanosegundos burbuja {tiempoN}')
         print(f'Tiempo en nanosegundos burbuja mejorado {tiempoN2}')
         print(f'Tiempo en nanosegundos seleccion {tiempoN3}')
-        print(f'Tiempo en nano segundos shell {tiempo4}')
+        print(f'Tiempo en nanosegundos shell {tiempo4}')
+        print(f'Tiempo en nanosegundos inserccion{t}')
 
     def build_arreglo(self, tamano):
         arreglo =[]

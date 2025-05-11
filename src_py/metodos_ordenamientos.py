@@ -57,3 +57,18 @@ class Metodo_ordenamiento:
                 arreglo[j] = temp
             gap //= 2
         return arreglo
+    
+    def sort_insertion(self, array):
+        arreglo = array.copy()  
+        n = len(arreglo)
+
+        for i in range(1, n): 
+            elemento = arreglo[i]
+            j = i - 1
+            while j >= 0 and arreglo[j] > elemento:
+                arreglo[j + 1] = arreglo[j]
+                j -= 1
+            arreglo[j + 1] = elemento
+
+        return arreglo 
+
