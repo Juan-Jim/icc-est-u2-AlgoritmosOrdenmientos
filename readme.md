@@ -1,12 +1,15 @@
 # Algoritmos de ordenamientos
 
 ## 📌 Información General
-Título: Algoritmos de ordenamiento
-Asignatura: Estructura de Datos
-Carrera: Computación
-Estudiante: Cristopher Salinas, Juan JImenez
-Fecha: 11 / Mayo / 2025
-Profesor: Ing. Pablo Torres
+
+- **Título:** Algoritmos de Ordenamiento
+- **Asignatura:** Estructura de Datos
+- **Carrera:** Computación
+- **Estudiante:** Cristopher Salinas, Juan JImenez
+- **Fecha:** 11 / Mayo / 2025
+- **Profesor:** Ing. Pablo Torres
+  ---
+
 ## Descripcion del proyecto
 
 En este proyecte realizaremos varias comparaciones sobre diferentes metodos ordenamientos con distintos tamaños de arreglos pra verificar cual es el mas optimo en situaciones de arreglos grandes o pequeños.
