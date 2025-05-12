@@ -46,8 +46,12 @@ class Show_results:
 
         for tam, nombre, tiempo in resultado:
             tiempos_by_metodo[nombre].append(tiempo)
+        
+        num_metodos = len(tiempos_by_metodo)
+        num_filas = (num_metodos + 1) // 2
 
-        fig, axs = plt.subplots(6, 1, figsize=(10, 25))
+        fig, axs = plt.subplots(num_filas, 2, figsize=(15, 5 * num_filas))
+        axs = axs.flatten()
 
         # comparacion general
         for nombre, tiempos in tiempos_by_metodo.items():
@@ -62,7 +66,7 @@ class Show_results:
         for i, (nombre, tiempos) in enumerate(tiempos_by_metodo.items(), start=1):
             axs[i].plot(tamanios, tiempos, marker="o", color="blue")
             axs[i].set_title(f"Tiempo de ejecución: {nombre}")
-            axs[i].set_xlabel("Tamaño del arreglo")
+            axs[i].set_xlabel("")
             axs[i].set_ylabel("Tiempo (segundos)")
             axs[i].grid(True)
 
