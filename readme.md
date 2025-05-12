@@ -40,7 +40,7 @@ Resultado del tiempo demora en los diferentes arreglos
 
 ---
 
-##  CONCLUCIONES CON TERMINOLOGIA DE NOTACION 
+##  Cocluciones con terminologia de notacion 
 
     - Los algoritmos Bubble Sort, Burbuja mejorado, Selection Sort e Insertion Sort presentan un crecimiento exponencial del tiempo conforme aumenta el tamaño del arreglo, lo que refleja su complejidad temporal cuadrática O(n²).
 
@@ -56,4 +56,6 @@ Resultado del tiempo demora en los diferentes arreglos
 
     - Para conjuntos de datos grandes, los algoritmos Shell Sort, Merge Sort o QuickSort deben ser preferidos sobre los métodos educativos como Bubble o Insertion, que solo son adecuados para fines didácticos o conjuntos muy pequeños.
 
+## Repositorio del proyecto
 
+[Algoritsmos de Ordenamientos](https://github.com/Juan-Jim/icc-est-u2-AlgoritmosOrdenmientos)
