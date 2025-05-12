@@ -51,29 +51,29 @@ Resultado del tiempo demora en los diferentes arreglos
 ---
 
 ##  Cocluciones con terminologia de notacion 
+
 (Juan jimenez)
 
-    - Los algoritmos Bubble Sort, Burbuja mejorado, Selection Sort e Insertion Sort presentan un crecimiento exponencial del tiempo conforme aumenta el tamaño del arreglo, lo que refleja su complejidad temporal cuadrática O(n²).
+Los algoritmos Bubble Sort, Burbuja mejorado, Selection Sort e Insertion Sort presentan un crecimiento exponencial del tiempo conforme aumenta el tamaño del arreglo, lo que refleja su complejidad temporal cuadrática O(n²).
 
-    - En contraste, Shell Sort mantiene un tiempo de ejecución consistentemente bajo, incluso con entradas de hasta 100,000 elementos, lo que demuestra un comportamiento mucho más eficiente, cercano a O(n log n) en promedio.
+En contraste, Shell Sort mantiene un tiempo de ejecución consistentemente bajo, incluso con entradas de hasta 100,000 elementos, lo que demuestra un comportamiento mucho más eficiente, cercano a O(n log n) en promedio.
 
-    - Bubble Sort toma más de 11 minutos (693 s) para ordenar 100,000 elementos, mientras que Shell Sort lo hace en menos de 1 segundo (0.85 s), lo que representa una diferencia de más de 800 veces en velocidad.
+Bubble Sort toma más de 11 minutos (693 s) para ordenar 100,000 elementos, mientras que Shell Sort lo hace en menos de 1 segundo (0.85 s), lo que representa una diferencia de más de 800 veces en velocidad.
 
-    - Insertion Sort supera incluso a Selection en ciertos casos pequeños, pero sufre mucho en tamaños grandes.
+Insertion Sort supera incluso a Selection en ciertos casos pequeños, pero sufre mucho en tamaños grandes.
+Burbuja mejorado es más rápido que Bubble clásico, especialmente con tamaños medianos (p. ej. en 30,000 elementos baja de 43.76 s a 33.99 s), pero sigue siendo impráctico para tamaños grandes.
 
-    - Burbuja mejorado es más rápido que Bubble clásico, especialmente con tamaños medianos (p. ej. en 30,000 elementos baja de 43.76 s a 33.99 s), pero sigue siendo impráctico para tamaños grandes.
+Shell Sort es el único algoritmo probado que escala eficientemente. Su tiempo crece de 0.015 s (5,000) a solo 0.85 s (100,000), lo que sugiere que maneja grandes volúmenes con bajo costo computacional.
 
-    - Shell Sort es el único algoritmo probado que escala eficientemente. Su tiempo crece de 0.015 s (5,000) a solo 0.85 s (100,000), lo que sugiere que maneja grandes volúmenes con bajo costo computacional.
-
-    - Para conjuntos de datos grandes, los algoritmos Shell Sort, Merge Sort o QuickSort deben ser preferidos sobre los métodos educativos como Bubble o Insertion, que solo son adecuados para fines didácticos o conjuntos muy pequeños.
+Para conjuntos de datos grandes, los algoritmos Shell Sort, Merge Sort o QuickSort deben ser preferidos sobre los métodos educativos como Bubble o Insertion, que solo son adecuados para fines didácticos o conjuntos muy pequeños.
 
 (Cristopher Salinas)
 
-    - Después de probar varios algoritmos de ordenamiento, se puede ver claramente que algunos funcionan mucho mejor que otros cuando el tamaño del arreglo crece. Algoritmos como Bubble Sort, Burbuja mejorado, Selection Sort e Insertion Sort tienen un tiempo de ejecución que aumenta muy rápido, porque su complejidad es cuadrática (O(n²)), lo que los hace poco prácticos para arreglos grandes.
+Después de probar varios algoritmos de ordenamiento, se puede ver claramente que algunos funcionan mucho mejor que otros cuando el tamaño del arreglo crece. Algoritmos como Bubble Sort, Burbuja mejorado, Selection Sort e Insertion Sort tienen un tiempo de ejecución que aumenta muy rápido, porque su complejidad es cuadrática (O(n²)), lo que los hace poco prácticos para arreglos grandes.
 
-    - Por ejemplo, Bubble Sort tarda más de 11 minutos en ordenar 100,000 elementos, mientras que Shell Sort hace lo mismo en menos de 1 segundo. Esa diferencia muestra lo importante que es elegir bien el algoritmo según el tamaño de los datos. Insertion Sort funciona mejor que Selection en arreglos pequeños, pero también se vuelve muy lento cuando los datos son muchos. Burbuja mejorado es un poco más rápido que Bubble clásico, pero aún así no es una buena opción para grandes volúmenes.
+Por ejemplo, Bubble Sort tarda más de 11 minutos en ordenar 100,000 elementos, mientras que Shell Sort hace lo mismo en menos de 1 segundo. Esa diferencia muestra lo importante que es elegir bien el algoritmo según el tamaño de los datos. Insertion Sort funciona mejor que Selection en arreglos pequeños, pero también se vuelve muy lento cuando los datos son muchos. Burbuja mejorado es un poco más rápido que Bubble clásico, pero aún así no es una buena opción para grandes volúmenes.
 
-    - En cambio, Shell Sort demuestra ser mucho más eficiente. Sus tiempos de ejecución se mantienen bajos incluso con arreglos muy grandes, lo cual indica que escala mucho mejor. Por eso, para manejar grandes cantidades de datos, conviene usar algoritmos como Shell Sort, QuickSort o Merge Sort. Los métodos como Bubble o Insertion están bien para aprender, pero no son recomendables en situaciones reales con muchos datos.
+En cambio, Shell Sort demuestra ser mucho más eficiente. Sus tiempos de ejecución se mantienen bajos incluso con arreglos muy grandes, lo cual indica que escala mucho mejor. Por eso, para manejar grandes cantidades de datos, conviene usar algoritmos como Shell Sort, QuickSort o Merge Sort. Los métodos como Bubble o Insertion están bien para aprender, pero no son recomendables en situaciones reales con muchos datos.
 
 
 
