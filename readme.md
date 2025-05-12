@@ -1,4 +1,10 @@
- # Algortimos de ordenamiento
+# Algoritmos de ordenamientos
+
+ ## Datos
+ 
+ - Estudiantes: Juan Jimenez, Cristopher Salinas
+ - Materia: Estructura de Datos
+ - Docente: Ing. Pablo Torres
 
 ## Descripcion del proyecto
 
@@ -49,3 +55,5 @@ Resultado del tiempo demora en los diferentes arreglos
     - Shell Sort es el único algoritmo probado que escala eficientemente. Su tiempo crece de 0.015 s (5,000) a solo 0.85 s (100,000), lo que sugiere que maneja grandes volúmenes con bajo costo computacional.
 
     - Para conjuntos de datos grandes, los algoritmos Shell Sort, Merge Sort o QuickSort deben ser preferidos sobre los métodos educativos como Bubble o Insertion, que solo son adecuados para fines didácticos o conjuntos muy pequeños.
+
+
